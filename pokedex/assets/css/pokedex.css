@@ -34,6 +34,24 @@
     font-size: 0.625rem;
     border-radius: 1rem;
 }
+#Bulbasaur:hover{
+    background-color: #50BBC3;
+    transition: 1s;
+    transform: scale(1.5) translate(3%);
+}
+
+
+#Ivysaur:hover{
+    background-color: #50BBC3;
+    transition: 1s;
+    transform: scale(1.5) translate(0%);
+}
+
+#Venusaur:hover{
+    background-color: #50BBC3;
+    transition: 1s;
+    transform: scale(1.5) translate(-3%);
+}
 
 .pokemon .detail img{
     max-width: 100%;
