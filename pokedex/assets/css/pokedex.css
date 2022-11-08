@@ -34,23 +34,36 @@
     font-size: 0.625rem;
     border-radius: 1rem;
 }
+#Bulbasaur{
+    transform: scale(1) translate(0%);
+    transition: 1s;
+}
 #Bulbasaur:hover{
     background-color: #50BBC3;
     transition: 1s;
     transform: scale(1.5) translate(3%);
+    z-index: 9999;
 }
 
-
+#Ivysaur{
+    transform: scale(1) translate(0%);
+    transition: 1s;
+}
 #Ivysaur:hover{
     background-color: #50BBC3;
     transition: 1s;
     transform: scale(1.5) translate(0%);
+    z-index: 9999;
 }
-
+#Venusaur{
+    transform: scale(1) translate(0%);
+    transition: 1s;
+}
 #Venusaur:hover{
     background-color: #50BBC3;
-    transition: 1s;
+    transition: 0.8s;
     transform: scale(1.5) translate(-3%);
+    z-index: 9999;
 }
 
 .pokemon .detail img{
